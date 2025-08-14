@@ -1,0 +1,128 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f3f4f6;
+    height: 100vh;
+}
+
+/* Welcome message */
+.welcome-message {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #4f46e5, #6366f1);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(79,70,229,0.2);
+}
+
+.nexa-name {
+    font-weight: 800;
+    color: #fffacd;
+}
+
+/* Chat container */
+.chat-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    background: #f9fafb;
+}
+
+/* Chat bubbles */
+.user-chat-box,
+.ai-chat-box {
+    padding: 12px 20px;
+    border-radius: 20px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.user-chat-box {
+    align-self: flex-end;
+    background: #908aff;
+    color: white;
+    border-radius: 20px 20px 0 20px;
+}
+
+.ai-chat-box {
+    align-self: flex-start;
+    background: #e5e7eb;
+    color: #111827;
+    border-radius: 20px 20px 20px 0;
+}
+
+/* Prompt area */
+.prompt-area {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-top: 1px solid #e5e7eb;
+    background: #f9fafb;
+}
+
+.prompt-area input {
+    flex: 1;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.prompt-area input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79,70,229,0.3);
+}
+
+.prompt-area button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #908aff;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.2s;
+}
+
+.prompt-area button:hover {
+    background: #4338ca;
+}
+
+
+.chooseimage{
+  max-width: 200px;  
+  max-height: 200px;  
+  width: auto;       
+  height: auto;       
+  
+  margin-top: 5px;   
+  display: block;    
+}
+
+
+.loading-gif {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="welcome-message">
+      Hi! I'm <span class="nexa-name">Nexa</span>, your AI assistant 🤖
+    </div>
+    <div class="chat-container">
+      <!-- user chat box
+      ai chat box -->
+    </div>
+    <div class="prompt-area">
+      <input type="text" id="prompt" placeholder="Write a Message" />
+      <button id="image">
+        <img src="images/image.svg" alt="" />
+
+        <input type="file" accept="images/*" hidden />
+      </button>
+
+      <button id="submit"><img src="images/up.svg" alt="" /></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
