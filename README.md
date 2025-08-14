@@ -26,7 +26,8 @@ You can view all the project screenshots here: [Screenshots Folder](screenshots/
 - **Others:** Axios for API calls, dotenv for environment variables
 
 - ## 💻 Installation
-- ```bash
+  
+ ```bash
 
 # Step 1: Clone the repository
 
