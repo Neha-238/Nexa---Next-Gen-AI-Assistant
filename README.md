@@ -2,6 +2,9 @@
 
 **Nexa** is an AI-powered assistant that can understand and respond to both **text** and **images**, built using the **Google Gemini API**.  
 
+## Screenshots
+
+You can view all the project screenshots here: [Screenshots Folder](screenshots/)
 
 ---
 
@@ -21,6 +24,34 @@
 - **Backend:** Node.js, Express.js
 - **AI API:** Google Gemini API (Text & Image support)
 - **Others:** Axios for API calls, dotenv for environment variables
+
+- ## 💻 Installation
+- ```bash
+
+# Step 1: Clone the repository
+
+git clone https://github.com/Neha-238/Nexa---Next-Gen-AI-Assistant.git
+cd Nexa
+
+# Step 2: Install backend dependencies
+
+cd server
+npm install
+
+
+***Environment Setup***
+Create a .env file inside the server directory and add the following:
+API_KEY=your_gemini_api_key
+
+***Run the App***
+# Start backend
+cd server
+npm start
+
+#  Start frontend
+go to index.html and open with live server
+
+
 
 ---
 
