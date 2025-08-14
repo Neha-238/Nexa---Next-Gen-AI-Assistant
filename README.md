@@ -17,7 +17,7 @@
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js, CSS
+- **Frontend:** HTML,CSS,javascript
 - **Backend:** Node.js, Express.js
 - **AI API:** Google Gemini API (Text & Image support)
 - **Others:** Axios for API calls, dotenv for environment variables
